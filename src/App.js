@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
 
+
 const word = "Hello"
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         {
           <WordCard value={word}/>
         }
+        <img src="https://images7.alphacoders.com/935/935553.png"></img>
       </div>
     );
   }
