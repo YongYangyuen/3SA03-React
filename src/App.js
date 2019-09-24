@@ -12,7 +12,7 @@ class App extends Component {
         {
           <WordCard value={word}/>
         }
-        <img src="https://images7.alphacoders.com/935/935553.png"></img>
+        <img src="https://images7.alphacoders.com/935/935553.png" width="1366" height="768"></img>
       </div>
     );
   }
