@@ -36,6 +36,7 @@ export default class WordCard extends Component {
                 --this.state.life
                 if(this.state.attempt == 3) {
                     alert("You lose ! \n" + "Answer: " + this.state.word)
+                    window.location.reload()
                 }
             }
         }
