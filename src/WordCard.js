@@ -34,6 +34,9 @@ export default class WordCard extends Component {
             else {
                 this.setState({guess: [], attempt: this.state.attempt + 1})
                 --this.state.life
+                if(this.state.attempt == 3) {
+                    alert("You lose ! \n" + "Answer: " + this.state.word)
+                }
             }
         }
         console.log(`${c} has been activated.`)
