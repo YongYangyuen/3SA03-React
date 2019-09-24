@@ -10,8 +10,8 @@ const prepareStateFromWord = (given_word) => {
     return {
         word,
         chars,
-        life: 3,
         attempt: 1,
+        life: 3,
         guess: [],
         completed: false
     }
@@ -29,7 +29,8 @@ export default class WordCard extends Component {
         if(guess.length == this.state.chars.length) {
             if(guess.join('').toString() == this.state.word) {
                 this.setState({guess: [], completed: true})
-
+                alert("You win !")
+                window.location.reload()
             }
             else {
                 this.setState({guess: [], attempt: this.state.attempt + 1})
