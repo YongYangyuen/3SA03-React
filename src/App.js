@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
 
-const words = ["Hello", "World", "Boy", "Girl", "Food", "Line", "Cat", "Dog", "Blood", "King"]
-var a = parseInt(Math.random() * 10)
+const words = ["Hello", "World", "Boy", "Girl", "Food", "Line", "Cat", "Dog", "Blood", "King", "Baby", "Gold"]
+var a = parseInt(Math.random() * 12)
 const word = words[a]
 
 class App extends Component {
